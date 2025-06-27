@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "DailyBoost",
+  "version": "1.0",
+  "description": "Stay motivated with a daily quote, weather update, and a to-do list.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "geolocation"
+  ],
+  "host_permissions": [
+    "https://api.api-ninjas.com/*",
+    "https://api.openweathermap.org/*",
+    "https://api.unsplash.com/*"
+  ]
+}
